@@ -13,3 +13,6 @@ _addon.command = 'shitlist'
 -- load the settings
 settings = config.load('data\\settings.xml', defaultSettings)
 config.register(settings, initializeSettings)
+
+-- setup things now
+setupCommands()
