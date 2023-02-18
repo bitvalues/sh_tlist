@@ -3,6 +3,8 @@ config = require('config')
 
 -- internal dependencies
 require('utilities')
+require('settings')
+require('commands')
 
 -- addon setup
 _addon.name = 'shitlist'
@@ -16,3 +18,12 @@ config.register(settings, initializeSettings)
 
 -- setup things now
 setupCommands()
+
+-- quick reporting on number of shitheads remembered at load
+local shitheadCount = arrayLength(settings.shitheads)
+
+if shitheadCount > 1 then
+  addonPrint(green(shitheadCount) .. yellow(' shitheads remembered!') .. darkRed(''))
+else
+  addonPrint(green(shitheadCount) .. yellow(' shithead remembered!') .. darkRed(''))
+end
