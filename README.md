@@ -1,6 +1,6 @@
 # shitlist
 
-> An addon that tracks shitheads with notes so you remember who to avoid.
+> A windower4 addon that tracks shitheads with notes so you remember who to avoid.
 
 ## Pictures
 
