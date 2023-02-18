@@ -2,6 +2,7 @@
 config = require('config')
 
 -- internal dependencies
+require('utilities')
 
 -- addon setup
 _addon.name = 'shitlist'
