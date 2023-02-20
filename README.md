@@ -1,6 +1,10 @@
-# shitlist
+# sh_tlist
 
 > A windower4 addon that tracks shitheads with notes so you remember who to avoid.
+
+## Why not just `shitlist`?
+
+The HorizonXI devs found the word `shitlist` to be too much profanity; they asked me to rename the addon to `sh_tlist` for the website.
 
 ## Pictures
 
